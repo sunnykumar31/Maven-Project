@@ -1,0 +1,75 @@
+@charset "ISO-8859-1";
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 8px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    background-color : #2196f3;
+	color : black;
+   
+}
+
+button:hover{
+	background-color: #4CAF50;
+    color: white;
+}
+
+a {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: #2196f3;
+}
+
+a:hover {
+    color: #4CAF50;
+}
+
+#allServlet {
+	cursor: pointer;
+	background-color : #2196f3;
+	color : black;
+}
+#allServlet:hover{
+	background-color: #4CAF50;
+    color: white;
+}
